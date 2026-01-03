@@ -15,5 +15,9 @@ while True:
     elif guess > number:
         print("I'm not a skyscraper, that is way too high ⬆️")
     else:
-        print(f"🎉 Correct, genius! You guessed it in {tries} tries.")
+       if tries <= 5:
+            print(f"🎉 Correct! You're a Guess Master! You guessed it in {tries} tries.")
+    else:
+            print(f"🎉 Correct! Genius (joking)! You guessed it in {tries} tries.")
+        break
         break
