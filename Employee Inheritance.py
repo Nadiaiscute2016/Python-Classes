@@ -10,5 +10,5 @@ class Employee(Person):
             self.salary = salary
             self.post = post
 Person.__init__(self, name, idnumber)
-a = Employee('Donoji', 1000, 200000, "Intern")
+a = Employee('Donoji', 10000, 200000, "Intern")
 a.display()
